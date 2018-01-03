@@ -1,7 +1,10 @@
 package com.mitocode.beans;
 
+import org.springframework.beans.factory.annotation.Value;
+
 public class Mundo {
 	
+	@Value("Hello World!")
 	private String saludo;
 	
 	public String getSaludo() {
