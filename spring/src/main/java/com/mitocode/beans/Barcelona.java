@@ -7,6 +7,7 @@ import com.mitocode.interfaces.IEquipo;
 @Component
 public class Barcelona implements IEquipo {
 
+
 	public String mostrar() {
 		// TODO Auto-generated method stub
 		return "Barcelona FC";

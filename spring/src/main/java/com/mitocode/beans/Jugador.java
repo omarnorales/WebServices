@@ -2,6 +2,7 @@ package com.mitocode.beans;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 import com.mitocode.interfaces.IEquipo;
@@ -10,6 +11,7 @@ import com.mitocode.interfaces.IEquipo;
 public class Jugador {
 	
 	private int id;
+	@Value("Odre")
 	private String nombre;
 	@Autowired
 	@Qualifier("barcelona")

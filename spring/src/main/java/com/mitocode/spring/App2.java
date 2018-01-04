@@ -14,7 +14,7 @@ public class App2 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		//Forma 1: Configuracion por XML
+		//Forma 1: Configuracion o enfoque por XML
 		//ApplicationContext appContext = new ClassPathXmlApplicationContext("com/mitocode/xml/beans.xml");
 		
 		//Forma2: Configoracion por Notaciones forma 1
